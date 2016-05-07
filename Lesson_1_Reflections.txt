@@ -1,0 +1,23 @@
+Being able to use the command prompt FC command to compare two files could be extremely useful in
+narrowing down where changes have been made, possible mistakes have been made, and truly optimizing
+the code can occur. What I mean by that last part is being able to quickly identify changes will
+allow the coder to make additional changes to that code, perhaps a font was big but not big enough.
+
+How could having easy access to the entire history of a file make you a more efficient programmer in the long term?
+Quickly find errors, also this would help big time when collaborating.
+
+I see two large problems with commits needing to be done by the user. First, people can be forgetful and wait to long 
+between commits, I think most people are unlikely to save "too often," especially since it is largely about preference
+at that point. Secondly, if you have a computer crash or something that requires immediate attention it may be difficult
+to get back to that point.
+
+I believe git was entirely created with version control in mind, that is why it doesn't not contain it's own editor. With Google Docs and the like, tracking versions was likely just a natural extension of other features, but not the core of the product. Also, Google Docs will likely
+be used for files that don't necessarily get changed together, i.e. spreadsheets, and notes.
+
+I can use git diff and git log to view the differences between commits. With git diff you find the differences between 2 commits, with git log you get a general overview of all the different commits. I will need to remember to hit "q" to exit when bash has given me an excessive amount of data, as well as " " and "b" to scroll up and down through that data.
+
+How might using version control make you more confident to make changes that could break something? 
+	Really it will make all the difference in the world. Being able to rapidly swap between versions will make it so much easier. I will have to become better with navigating gitbash as well as logs. Another thing is I will have to remember the most recent commit is on the top.
+
+I want to use git to be able to maximize changes to my code to allow me to be flexible, creative, and fearless.
+
