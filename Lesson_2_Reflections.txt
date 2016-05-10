@@ -6,6 +6,3 @@ The working directory is simply the folder in which you git information is conta
 
 Using commits for a single logic change seems both valuable and simple. Using git diff (with no arguments), and git diff --staged I can see the difference between all three of my spaces, meaning I can see the difference between my most recent commit and staging area with git diff 	--staged. And I can see the difference between my staging area and working directory with git diff. Finally, I can use git status to see what files have been added to the staging area. With this knowledge I can easily change multiple files but commit them seperately.
 
-
-Added to staging area first with ##.
-Added to staging area second with ####@@@@####.
