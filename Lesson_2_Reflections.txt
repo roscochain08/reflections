@@ -8,4 +8,6 @@ Using commits for a single logic change seems both valuable and simple. Using gi
 
 Branches can help keep things organinzing by allowing a user to make drastically different changes to code, and follow those paths where ever they may lead. But the coder will still be able to navigating back down and take another branch if need be.
 
-Branch diagrams help you see all the different directions a program has taken, and from what point each branch "branched" out from.
+Branch diagrams help you see all the different directions a program has taken, and from what point each branch "branched" out from
+
+The ability to merge branches is really what makes collaboration possible. Without the 'merge' command, combining files would be tedious.
