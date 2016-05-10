@@ -1,4 +1,7 @@
 What happens when you initialize a repository? Why do you need to do it?
 	When you initialize a repository you are essentially preparing git to track changes by utilizing commits, otherwise you will not be
-able to use git to track changes.
+able to use git to track changes. In hindsight I probably would do seperate commits, since the files are unrelated to one another.
 
+The working directory is simply the folder in which you git information is contained, however you are not required to have everything with in your working directory added to your staging area and subsequently your commits.
+
+Using commits for a single logic change seems both valuable and simple. Using git diff (with no arguments), and git diff --staged I can see the difference between all three of my spaces, meaning I can see the difference between my working previous commit and staging area with git diff 	--staged. And I can see the difference between my staging area and most working directory with git diff. Finally, I can use git status to see what files have been added to the staging area. With this knowledge I can easily change multiple files but commit them seperately.
