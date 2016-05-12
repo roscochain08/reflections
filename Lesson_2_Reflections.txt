@@ -11,3 +11,6 @@ Branches can help keep things organinzing by allowing a user to make drastically
 Branch diagrams help you see all the different directions a program has taken, and from what point each branch "branched" out from
 
 The ability to merge branches is really what makes collaboration possible. Without the 'merge' command, combining files would be tedious.
+
+Git's automatic merge makes collaboration much simpler. It is especialy useful in finding discrepencies and bringing them to the coders attention. The downside is that it is not perfect, conflicts still need to be be resolved manually, but at least they are brought to the coders attention.
+
